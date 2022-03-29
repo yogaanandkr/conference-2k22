@@ -241,6 +241,10 @@ body{
    
 }
 
+.card:hover .card-body{
+    margin-top: 2px solid #fff;
+}
+
 
 .card:hover svg{
     fill: #fff;
