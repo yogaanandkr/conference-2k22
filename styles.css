@@ -259,7 +259,7 @@ nav a:hover{
     position: absolute;
     top: 0;
     left: 0;
-    background: url(/tech\ image.jpg);
+    background: url(https://images.unsplash.com/photo-1519389950473-47ba0277781c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80);
     background-size: cover;
     background: -webkit-linear-gradient(to left, #fb8fe0, #4e54c8);
     width: 100%;
@@ -324,6 +324,7 @@ nav a:hover{
     .tech{
         height: 110vh;
         background-repeat: no-repeat;
+        padding-bottom: 50px;
 
     }
 }
@@ -388,7 +389,7 @@ nav a:hover{
     position: absolute;
     top: 0;
     left: 0;
-    background: url(/non-tech.jpg);
+    background: url(https://images.unsplash.com/flagged/photo-1580234759288-fbf3ccdd9a06?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1167&q=80);
     background-size: cover;
     background: -webkit-linear-gradient(to left, #fb8fe0, #4e54c8);
     width: 100%;
@@ -465,7 +466,7 @@ nav a:hover{
     .non-tech{
         height: 110vh;
         background-repeat: no-repeat;
-
+        padding-bottom: 50px;
     }
 }
 
@@ -540,6 +541,10 @@ nav a:hover{
 .scroll-up-btn.scroll-none{
     /* display: none; */
     opacity: 1;
+}
+
+.scroll-up-btn svg:hover{
+    fill: blue;
 }
 
 
