@@ -241,16 +241,16 @@ nav a:hover{
 
                                                    
 
- /* .tech{
+ .tech{
     background-color: lightblue;
-    height: 110vh;
-    width: 100vw;
+    /* height: 110vh; */
+    /* width: 100vw; */
     padding-bottom: 50px;
-} */
+}
 
-.tech{
+/* .tech{
     position: relative;
-    height: 110vh;
+    height: max-content;
 }
 
 .tech::after{
@@ -266,7 +266,36 @@ nav a:hover{
     height: 120vh;
     opacity: .6;
     z-index: -1;
+} */
+
+
+/* @media (max-width: 743px){
+    .tech{
+        background-color: lightblue;
+        height: 200vh;
+        width: 100vw;
+        padding-bottom: 50px;
+    }
 }
+
+@media (max-width: 1000px){
+    .tech{
+        background-color: lightblue;
+        height: 200vh;
+        width: 100vw;
+        padding-bottom: 50px;
+    }
+}
+
+@media (min-width: 1000px){
+    .tech{
+        height: 110vh;
+        background-repeat: no-repeat;
+        padding-bottom: 50px;
+
+    }
+} */
+
 
 .col{
     display: flex;
@@ -302,32 +331,7 @@ nav a:hover{
 }
 
 
-@media (max-width: 743px){
-    .tech{
-        background-color: lightblue;
-        height: 200vh;
-        width: 100vw;
-        padding-bottom: 50px;
-    }
-}
 
-@media (max-width: 1000px){
-    .tech{
-        background-color: lightblue;
-        height: 200vh;
-        width: 100vw;
-        padding-bottom: 50px;
-    }
-}
-
-@media (min-width: 1000px){
-    .tech{
-        height: 110vh;
-        background-repeat: no-repeat;
-        padding-bottom: 50px;
-
-    }
-}
 
                                                         /* non tech  */
 .non-tech{
@@ -373,12 +377,12 @@ nav a:hover{
 
                                                     /* card hover  */
 
- /* .non-tech{
+ .non-tech{
     background-color: rgb(243, 88, 184);
     padding-bottom: 50px;
-} */
+}
 
-.non-tech{
+/* .non-tech{
     position: relative;
     height: 110vh;
 }
@@ -396,7 +400,36 @@ nav a:hover{
     height: 120vh;
     opacity: .6;
     z-index: -1;
+} */
+
+
+/* @media (max-width: 743px){
+    .non-tech{
+        background-color: rgb(243, 88, 184);
+        height: 200vh;
+        width: 100vw;
+        padding-bottom: 50px;
+    }
 }
+
+@media (max-width: 1000px){
+    .non-tech{
+        background-color: rgb(243, 88, 184);
+        height: 100vh;
+        width: 100vw;
+        padding-bottom: 50px;
+    }
+}
+
+@media (min-width: 1000px){
+    .non-tech{
+        height: 200vh;
+        background-repeat: no-repeat;
+        padding-bottom: 50px;
+    }
+} */
+
+
 
 .col{
     display: flex;
@@ -444,31 +477,7 @@ nav a:hover{
 
 }
 
-@media (max-width: 743px){
-    .non-tech{
-        background-color: rgb(243, 88, 184);
-        height: 200vh;
-        width: 100vw;
-        padding-bottom: 50px;
-    }
-}
 
-@media (max-width: 1000px){
-    .non-tech{
-        background-color: rgb(243, 88, 184);
-        height: 100vh;
-        width: 100vw;
-        padding-bottom: 50px;
-    }
-}
-
-@media (min-width: 1000px){
-    .non-tech{
-        height: 200vh;
-        background-repeat: no-repeat;
-        padding-bottom: 50px;
-    }
-}
 
 
 
@@ -512,6 +521,11 @@ nav a:hover{
 .enroll .card-text{
     font-size: 20px;
     font-weight: 500;
+    color: #fff;
+}
+
+.greet p{
+    color: #333;
 }
 
 .enroll{
@@ -535,7 +549,12 @@ nav a:hover{
     font-size: 35px;
     
 }
-.contact h3,p{
+.contact p{
+    text-align: center;
+    color: #fff;
+}
+
+.contact h3{
     text-align: center;
     color: #fff;
 }
@@ -635,3 +654,89 @@ html, body{
     scroll-behavior: smooth;
 }
 
+
+    
+    /* For Desktop View */
+    @media screen and (min-width: 1024px) {
+    .tech {
+        background-color: #63c971;
+        color: #fff;
+        /* height: 200vh; */
+    }
+    }
+    
+    /* For Tablet View */
+    @media screen and (min-device-width: 768px)
+    and (max-device-width: 1024px) {
+    .gfg-div {
+        width: 400px;
+        height: 400px;
+        background-color: orange;
+        color: black;
+    }
+    }
+    
+    /* For Mobile Portrait View */
+    @media screen and (max-device-width: 480px)
+    and (orientation: portrait) {
+    .gfg-div {
+        width: 200px;
+        height: 200px;
+        background-color: red;
+        color: #fff;
+    }
+    }
+    
+    /* For Mobile Landscape View */
+    @media screen and (max-device-width: 640px)
+    and (orientation: landscape) {
+    .gfg-div {
+        width: 400px;
+        height: 200px;
+        background-color: cyan;
+        color: black;
+    }
+    }
+    
+    /* For Mobile Phones Portrait or Landscape View */
+    @media screen and (max-device-width: 640px) {
+    .gfg-div {
+        width: 400px;
+        height: 200px;
+        background-color: chartreuse;
+        color: black;
+    }
+    }
+    
+    /* For iPhone 4 Portrait or Landscape View */
+    @media screen and (min-device-width: 320px)
+    and (-webkit-min-device-pixel-ratio: 2) {
+    .gfg-div {
+        width: 400px;
+        height: 400px;
+        background-color: brown;
+        color: black;
+    }
+    }
+    
+    /* For iPhone 5 Portrait or Landscape View */
+    @media (device-height: 568px) and (device-width: 320px)
+    and (-webkit-min-device-pixel-ratio: 2) {
+    .gfg-div {
+        width: 400px;
+        height: 400px;
+        background-color: cornflowerblue;
+        color: black;
+    }
+    }
+    
+    /* For iPhone 6 and 6 plus Portrait or Landscape View */
+    @media (min-device-height: 667px) and (min-device-width: 375px)
+    and (-webkit-min-device-pixel-ratio: 3) {
+    .tech {
+        background-color: lightblue;
+        height: 200vh;
+        background-size: cover;
+    }
+    }
+    
