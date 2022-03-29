@@ -313,8 +313,8 @@ nav a:hover{
 
 
 
-@media screen and (max-width: 1000px),
-        screen and (max-height:980px){
+@media screen and (max-width: 980px),
+        screen and (max-height:800px){
     .tech{
         background: lightblue;
         height: 200vh;
@@ -323,14 +323,14 @@ nav a:hover{
     }
 }
 
-@media (min-width: 1000px){
+/* @media (min-width: 1000px){
     .tech{
         height: 110vh;
         background-repeat: no-repeat;
         padding-bottom: 50px;
 
     }
-}
+} */
 
                                                         /* non tech  */
 .non-tech{
@@ -458,7 +458,7 @@ nav a:hover{
 }
 
 @media screen and (max-width: 1000px),
-        screen and (max-height:980px){
+        screen and (max-height:800px){
     .non-tech{
         background: pink;
         height: 100vh;
@@ -467,13 +467,13 @@ nav a:hover{
     }
 }
 
-@media (min-width: 1000px){
+/* @media (min-width: 1000px){
     .non-tech{
         height: 110vh;
         background-repeat: no-repeat;
         padding-bottom: 50px;
     }
-}
+} */
 
 
 
