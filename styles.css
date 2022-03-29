@@ -38,6 +38,7 @@ body{
 
 .navbar ul{
     margin-left: 150px;
+    /* background-color: #333; */
 }
 
 .navbar ul li a{
@@ -94,6 +95,34 @@ nav a:hover{
 
 .home-img img{
     margin-top: 30%;
+}
+@media (max-width: 991px){
+    .navbar-brand{
+        margin-left: 0px;
+    }
+    .navbar ul{
+        /* padding: 100px; */
+        text-align: center;
+        margin-left: 0;
+        /* height:fit-content; */
+        /* width:100vw; */
+        background-color: rgba(0, 0, 0, 0.671);
+        /* background-size: cover; */
+        /* padding-left: 100px; */
+    }
+    .navbar li{
+        /* margin: 0 auto; */
+        /* margin-top: 50px; */
+        margin-right: 100px;
+    }
+
+    .navbar li a:hover{
+        color: crimson;
+    }
+
+    .navbar.sticky ul li a:hover{
+        color: crimson;
+    }
 }
 
 @media (max-width: 743px){
@@ -251,22 +280,22 @@ nav a:hover{
 
                                                                             /* card hover  */
 
-.card:hover{
+.tech .card:hover{
     color: #fff;
     background-color: rgb(248, 9, 216);
     fill: #fff;
-    box-shadow: 2px 2px 10px rgb(247, 4, 206);
+    box-shadow: 2px 2px 10px rgb(55, 205, 243);
     transition: 0.5s;
     /* height: 50px; */
    
 }
 
-.card:hover .card-body{
+.tech .card:hover .card-body{
     margin-top: 2px solid #fff;
 }
 
 
-.card:hover svg{
+.tech .card:hover svg{
     fill: #fff;
     transition: 0.3s;
 
@@ -393,6 +422,27 @@ nav a:hover{
 }
 
 
+.non-tech .card:hover{
+    color: #fff;
+    background-color: rgb(61, 179, 248);
+    fill: #fff;
+    box-shadow: 2px 2px 10px rgb(247, 4, 206);
+    transition: 0.5s;
+    /* height: 50px; */
+   
+}
+
+.non-tech .card:hover .card-body{
+    margin-top: 2px solid #fff;
+}
+
+
+.non-tech .card:hover svg{
+    fill: #fff;
+    transition: 0.3s;
+
+}
+
 @media (max-width: 743px){
     .non-tech{
         background-color: rgb(243, 88, 184);
@@ -453,6 +503,47 @@ nav a:hover{
     border-radius: 10px;
 }
 
+.date-fee span{
+    font-weight: bolder;
+}
 
 
+.enroll .card-text{
+    font-size: 20px;
+    font-weight: 500;
+}
 
+.enroll{
+    background-color: azure;
+    border: 2px solid bisque;
+}
+
+.enroll .card{
+    background-color: bisque;
+}
+
+
+                                                    /* scroll btn */
+.scroll-up-btn{
+    /* display: none; */
+    opacity: 0;
+    position: fixed;
+    height: 30px;
+    width: 30px;
+    /* background: rgba(211, 211, 211, 0.288); */
+    /* background: crimson; */
+    fill: crimson;
+    right: 30px;
+    bottom: 30px;
+}
+
+.scroll-up-btn.scroll-none{
+    /* display: none; */
+    opacity: 1;
+}
+
+
+html, body{
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
