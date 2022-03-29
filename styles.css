@@ -245,6 +245,7 @@ nav a:hover{
     background-color: lightblue;
     /* height: 110vh; */
     /* width: 100vw; */
+    color: black;
     padding-bottom: 50px;
 }
 
@@ -308,6 +309,10 @@ nav a:hover{
 } */
 
                                                                             /* card hover  */
+
+.tech .card{
+    color: black;
+}
 
 .tech .card:hover{
     color: #fff;
