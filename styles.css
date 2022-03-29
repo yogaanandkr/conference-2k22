@@ -313,13 +313,14 @@ nav a:hover{
 
 
 
-@media screen and (max-width: 980px),
+@media screen and (max-width: 100vh),
         screen and (max-height:800px){
     .tech{
         background: lightblue;
-        height: 200vh;
+        height: 110vh;
         width: 100vw;
         padding-bottom: 50px;
+        margin-bottom: 200px;
     }
 }
 
