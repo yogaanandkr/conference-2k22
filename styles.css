@@ -311,33 +311,28 @@ nav a:hover{
     }
 }
 
-
-
-@media screen and (max-width: 100vh),
-        screen and (max-height:800px){
+@media (max-width: 1000px){
     .tech{
-        background: lightblue;
-        height: 110vh;
+        background-color: lightblue;
+        height: 200vh;
         width: 100vw;
         padding-bottom: 50px;
-        margin-bottom: 200px;
     }
 }
 
-/* @media (min-width: 1000px){
+@media (min-width: 1000px){
     .tech{
         height: 110vh;
         background-repeat: no-repeat;
         padding-bottom: 50px;
 
     }
-} */
+}
 
                                                         /* non tech  */
 .non-tech{
     text-align: center;
-    margin-top: 50px;
-    height: 110vh;
+    margin-top: 100px;
 }
 
 .non-tech-content h1{
@@ -458,23 +453,22 @@ nav a:hover{
     }
 }
 
-@media screen and (max-width: 1000px),
-        screen and (max-height:800px){
+@media (max-width: 1000px){
     .non-tech{
-        background: pink;
+        background-color: rgb(243, 88, 184);
         height: 100vh;
         width: 100vw;
         padding-bottom: 50px;
     }
 }
 
-/* @media (min-width: 1000px){
+@media (min-width: 1000px){
     .non-tech{
-        height: 110vh;
+        height: 200vh;
         background-repeat: no-repeat;
         padding-bottom: 50px;
     }
-} */
+}
 
 
 
@@ -530,6 +524,85 @@ nav a:hover{
 }
 
 
+            /* contact sectin  */
+
+.contact{
+    margin-top: 20px;
+}
+
+.contact h3{
+    font-weight: bolder;
+    font-size: 35px;
+    
+}
+.contact h3,p{
+    text-align: center;
+    color: #fff;
+}
+
+.contact-all{
+    color: yellow;
+    font-size: 20px;
+}
+
+.contact-all> div{
+    border-bottom: 2px solid yellow;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+.contact-all svg{
+    height: 50px;
+    fill: #fff;
+    size: 50px;
+    margin-right: 10px;
+}
+
+.thankyou svg{
+    height: 50px;
+    fill: #fff;
+}
+
+.phone {
+    display: flex;
+}
+
+.contact{
+    /* background: linear-gradient(to right, blue, rgb(71, 148, 219), blue); */
+    background-color: blue;
+}
+
+.contact svg:hover {
+    fill: #333;
+}
+
+.queries{
+    font-size: 20px;
+}
+
+.thankyou{
+    font-size: 40px;
+    font-weight: bolder;
+    color: yellow;
+    text-align: center;
+    margin-top: 20px;
+    border-bottom: 2px solid yellow;
+}
+
+.copy-rights{
+    margin-top: 20px;
+    padding-bottom: 20px;
+}
+
+.copy-rights span{
+    font-size: 30px;
+}
+
+.copy-rights .heart{
+    margin-left: 20px;
+
+}
+
                                                     /* scroll btn */
 .scroll-up-btn{
     /* display: none; */
@@ -554,7 +627,11 @@ nav a:hover{
 }
 
 
+
+
+
 html, body{
     overflow-x: hidden;
     scroll-behavior: smooth;
 }
+
