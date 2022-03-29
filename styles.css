@@ -62,7 +62,7 @@ nav a:hover{
 }
 
 .navbar-brand img{
-    width: 300px;
+    width: 250px;
 }
 
 
@@ -241,15 +241,13 @@ nav a:hover{
 
                                                    
 
- .tech{
+ /* .tech{
     background-color: lightblue;
-    /* height: 110vh; */
-    /* width: 100vw; */
     color: black;
     padding-bottom: 50px;
-}
+} */
 
-/* .tech{
+.tech{
     position: relative;
     height: max-content;
 }
@@ -260,14 +258,14 @@ nav a:hover{
     position: absolute;
     top: 0;
     left: 0;
-    background: url(https://images.unsplash.com/photo-1519389950473-47ba0277781c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80);
+    background: url(https://images.unsplash.com/photo-1531297484001-80022131f5a1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1120&q=80);
     background-size: cover;
     background: -webkit-linear-gradient(to left, #fb8fe0, #4e54c8);
     width: 100%;
     height: 120vh;
     opacity: .6;
     z-index: -1;
-} */
+}
 
 
 /* @media (max-width: 743px){
@@ -382,14 +380,13 @@ nav a:hover{
 
                                                     /* card hover  */
 
- .non-tech{
+ /* .non-tech{
     background-color: rgb(243, 88, 184);
     padding-bottom: 50px;
-}
+} */
 
-/* .non-tech{
+.non-tech{
     position: relative;
-    height: 110vh;
 }
 
 .non-tech::after{
@@ -405,7 +402,7 @@ nav a:hover{
     height: 120vh;
     opacity: .6;
     z-index: -1;
-} */
+}
 
 
 /* @media (max-width: 743px){
@@ -490,6 +487,7 @@ nav a:hover{
 
 .enroll{
     margin-top: 100px;
+    background-color: rgb(243, 18, 18);
 }
 
 .enroll-content{
@@ -605,7 +603,7 @@ nav a:hover{
 }
 
 .thankyou{
-    font-size: 40px;
+    font-size: 35px;
     font-weight: bolder;
     color: yellow;
     text-align: center;
@@ -620,6 +618,7 @@ nav a:hover{
 
 .copy-rights span{
     font-size: 30px;
+    color: white;
 }
 
 .copy-rights .heart{
@@ -659,89 +658,38 @@ html, body{
     scroll-behavior: smooth;
 }
 
+@media screen and (min-width: 100px) and
+(max-height: 660px){
+    .tech{
+        background: lightblue;
+        padding-bottom: 100px;
+        
+    }
+
+    .non-tech{
+        background: lightblue;
+        padding-bottom: 100px;
+        
+    }
+}
+
+@media screen and (max-width: 1000px){
+    .tech{
+        background: lightblue;
+        padding-bottom: 100px;
+    }
+
+    .non-tech{
+        background: lightblue;
+        padding-bottom: 100px;
+        
+    }
+
+}
+
 
     
-    /* For Desktop View */
-    @media screen and (min-width: 1024px) {
-    .tech {
-        background-color: #63c971;
-        color: #fff;
-        /* height: 200vh; */
-    }
-    }
-    
-    /* For Tablet View */
-    @media screen and (min-device-width: 768px)
-    and (max-device-width: 1024px) {
-    .gfg-div {
-        width: 400px;
-        height: 400px;
-        background-color: orange;
-        color: black;
-    }
-    }
-    
-    /* For Mobile Portrait View */
-    @media screen and (max-device-width: 480px)
-    and (orientation: portrait) {
-    .gfg-div {
-        width: 200px;
-        height: 200px;
-        background-color: red;
-        color: #fff;
-    }
-    }
-    
-    /* For Mobile Landscape View */
-    @media screen and (max-device-width: 640px)
-    and (orientation: landscape) {
-    .gfg-div {
-        width: 400px;
-        height: 200px;
-        background-color: cyan;
-        color: black;
-    }
-    }
-    
-    /* For Mobile Phones Portrait or Landscape View */
-    @media screen and (max-device-width: 640px) {
-    .gfg-div {
-        width: 400px;
-        height: 200px;
-        background-color: chartreuse;
-        color: black;
-    }
-    }
-    
-    /* For iPhone 4 Portrait or Landscape View */
-    @media screen and (min-device-width: 320px)
-    and (-webkit-min-device-pixel-ratio: 2) {
-    .gfg-div {
-        width: 400px;
-        height: 400px;
-        background-color: brown;
-        color: black;
-    }
-    }
-    
-    /* For iPhone 5 Portrait or Landscape View */
-    @media (device-height: 568px) and (device-width: 320px)
-    and (-webkit-min-device-pixel-ratio: 2) {
-    .gfg-div {
-        width: 400px;
-        height: 400px;
-        background-color: cornflowerblue;
-        color: black;
-    }
-    }
-    
-    /* For iPhone 6 and 6 plus Portrait or Landscape View */
-    @media (min-device-height: 667px) and (min-device-width: 375px)
-    and (-webkit-min-device-pixel-ratio: 3) {
-    .tech {
-        background-color: lightblue;
-        height: 200vh;
-        background-size: cover;
-    }
+@media only screen and (min-device-width: 320px) and (max-device-height: 568px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 2){
+    /* Styles */
     }
     
