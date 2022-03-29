@@ -44,10 +44,14 @@ body{
 }
 
 .navbar ul li a{
-    color: #fff;
+    color: #333;
     margin-left: 100px;
     font-size: 20px;
     font-weight: 900;
+}
+
+.nav-link {
+    color: black;
 }
 
 nav a:hover{
