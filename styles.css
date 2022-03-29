@@ -22,6 +22,8 @@ font-family: 'Ubuntu', sans-serif; */
 body{
     font-family: 'Merriweather Sans', sans-serif;
 }
+
+
 .navbar{
     height: 10vh;
     width: 100%;
@@ -63,6 +65,10 @@ nav a:hover{
 
 .navbar-brand img{
     width: 250px;
+}
+
+.navbar li a{
+    color: black;
 }
 
 
